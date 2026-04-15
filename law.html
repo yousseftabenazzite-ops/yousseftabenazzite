@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Law Advice – Gulf Legal Services Website</title>
+
+  <style>
+    :root{
+      --bg1: #071221;
+      --bg2: #0b1b2b;
+      --accent-from: #4fe0e6;
+      --accent-to: #ff92d0;
+      --muted: rgba(255,255,255,0.65);
+      --maxWidth: 1200px;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box}
+
+    body{
+      font-family: "Inter", "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, var(--bg1), var(--bg2));
+      color:#fff;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    /* =====ـ Header ===== */
+    .topbar{
+      position: sticky;
+      top:0;
+      z-index:100;
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      padding:12px 18px;
+      background: rgba(0,0,0,0.35);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .logo{
+      width:42px;
+      height:42px;
+      border-radius:10px;
+      background: linear-gradient(135deg, var(--accent-from), var(--accent-to));
+      display:flex;align-items:center;justify-content:center;
+      font-weight:700;
+      color:#06121a;
+    }
+
+    .title{
+      font-size:18px;
+      font-weight:700;
+      background: linear-gradient(90deg, var(--accent-from), var(--accent-to));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .btn{
+      text-decoration:none;
+      color:#06121a;
+      font-weight:600;
+      background: linear-gradient(90deg,var(--accent-from),var(--accent-to));
+      padding:10px 14px;
+      border-radius:10px;
+    }
+
+    /* =====ـ Main ===== */
+    main{
+      max-width: var(--maxWidth);
+      margin: 24px auto;
+      padding: 0 16px;
+      display:flex;
+      flex-direction:column;
+      gap:30px;
+    }
+
+    .viewer{
+      background: rgba(255,255,255,0.03);
+      padding:22px;
+      border-radius:14px;
+      border:1px solid rgba(255,255,255,0.05);
+      box-shadow: 0 12px 40px rgba(2,6,20,0.5);
+    }
+
+    .viewer img{
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:10px;
+      user-select:none;
+      -webkit-user-drag:none;
+      margin-top:18px;
+    }
+
+    .img-title{
+      font-size:20px;
+      font-weight:700;
+      margin-bottom:6px;
+      background: linear-gradient(90deg, var(--accent-from), var(--accent-to));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .img-desc{
+      color: var(--muted);
+      line-height:1.6;
+      margin-bottom:10px;
+      font-size:15px;
+    }
+
+    footer{
+      margin:40px 0 20px;
+      text-align:center;
+      color:var(--muted);
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">YT</div>
+        <div class="title">YOUSSEF TABENAZZITE</div>
+    </div>
+
+    <!-- غيّر الرابط لصفحتك الرئيسية -->
+    <a href="index.html" class="btn">Back to Menu</a>
+  </header>
+
+  <!-- ===== Main ===== -->
+  <main>
+
+    <!-- الصورة الأولى -->
+    <section class="viewer">
+      <div class="img-title">Law Advice – Gulf Legal Services Website</div>
+      <div class="img-desc">Arabic WordPress website for a Gulf legal consultancy, presenting the firm’s mission, key practice areas (companies, labor, contracts, litigation…), team profiles and clear reasons to choose them. The layout uses a professional navy‑and‑gold theme with strong CTAs and a contact form to request legal consultations.</div>
+
+      <img src="images1/lawv.png" alt="Long preview image 1">
+    </section>
+
+  
+
+  </main>
+
+  <footer>
+    
+  </footer>
+
+</body>
+</html>
